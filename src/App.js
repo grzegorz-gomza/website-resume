@@ -12,7 +12,7 @@ import './App.css';
 function App() {
     return (
         <Box>
-            <Router>
+            <BrowserRouter basename="/website-resume">
                 <Box>
                     <NavBar />
                 </Box>
@@ -26,7 +26,7 @@ function App() {
                         <Route path="/certificates" element={<Certificates />} />
                     </Routes>
                 </Container>
-            </Router>
+            </BrowserRouter>
         </Box>
     );
 }
