@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "website-resume",
   "version": "0.1.0",
-  "homepage": "https://rodrigo-arenas.github.io/portfolio",
+  "homepage": "https://grzegorz-gomza.github.io/website-resume/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
