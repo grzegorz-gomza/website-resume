@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://grzegorz-gomza.github.io/portfolio",
+  "homepage": "https://grzegorz-gomza.github.io/website-resume",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
