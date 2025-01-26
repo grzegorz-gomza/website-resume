@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Box, Container } from '@mui/material';
 import NavBar from './components/NavBar/NavBar';
