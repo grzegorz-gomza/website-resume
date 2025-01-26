@@ -3,7 +3,6 @@ import React from 'react';
 import { AppBar, Toolbar, Box } from '@mui/material';
 import NavBarItems from './NavBarItems';
 import BackgroundImage from '../../assets/images/header.png';
-import { Height } from '@mui/icons-material';
 
 const NavBar = () => {
     const containerStyles = {

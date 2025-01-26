@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Unstable_Grid2, Box, Typography } from '@mui/material';
 import DynamicTyping from '../../components/DynamicTyping';
 import About from '../../components/About';
-import Timeline from '../../components/Timeline/Timeline';
 import homeConfig from '../../assets/configs/homeConfig';
 import SkillsItems from '../Skills/SkillsItems';
 import skillsConfig from '../../assets/configs/skillsConfig';
