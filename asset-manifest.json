@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/website-resume/static/css/main.d364c496.css",
+    "main.js": "/website-resume/static/js/main.c5a640b2.js",
+    "static/media/lego.png": "/website-resume/static/media/lego.f3da9825443a01078677.png",
+    "static/media/langgraph.png": "/website-resume/static/media/langgraph.a994254eaa1a10faac5d.png",
+    "static/media/dipl.png": "/website-resume/static/media/dipl.7b38db76452a31596228.png",
+    "static/media/cert2.png": "/website-resume/static/media/cert2.8bab07c474c9d00a3d0d.png",
+    "static/media/GG.jpg": "/website-resume/static/media/GG.c161d9f7c3eb26c3dceb.jpg",
+    "static/media/header.png": "/website-resume/static/media/header.76dd9e6b6a223346c3cb.png",
+    "static/media/punching.jpeg": "/website-resume/static/media/punching.26ef12e752586c8196ab.jpeg",
+    "static/media/cert5.png": "/website-resume/static/media/cert5.2a8857fd62e99d4f6861.png",
+    "static/media/cert4.png": "/website-resume/static/media/cert4.fa3d5ee19f75f982665f.png",
+    "static/media/cert1.png": "/website-resume/static/media/cert1.227502135a4f6b8a8f74.png",
+    "static/media/cert8.png": "/website-resume/static/media/cert8.12b486aa989a2a24ae67.png",
+    "static/media/cert7.png": "/website-resume/static/media/cert7.f55ece1ee2d2ee01d2a9.png",
+    "static/media/cert3.png": "/website-resume/static/media/cert3.92c74ea4ba240e3b7351.png",
+    "static/media/cert6.png": "/website-resume/static/media/cert6.ee3c10c41828d4df1369.png",
+    "index.html": "/website-resume/index.html",
+    "main.d364c496.css.map": "/website-resume/static/css/main.d364c496.css.map",
+    "main.c5a640b2.js.map": "/website-resume/static/js/main.c5a640b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d364c496.css",
+    "static/js/main.c5a640b2.js"
+  ]
+}
