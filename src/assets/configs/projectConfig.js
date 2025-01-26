@@ -1,7 +1,6 @@
 import {BiGitRepoForked} from "react-icons/bi";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
 import {FaMedium} from "react-icons/fa"
-import {ImBook} from "react-icons/im";
 
 
 import langgraph from "../images/langgraph.png"
