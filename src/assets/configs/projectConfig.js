@@ -76,17 +76,17 @@ const projectConfig = [
         links: [
             {
                 name: "repo",
-                url: "https://github.com/grzegorz-gomza/Portfolio_Projects/tree/main/Cutomer%20Behaviour%20on%20Website",
+                url: "https://github.com/grzegorz-gomza/Portfolio_Projects/tree/main/Customer%20Behaviour%20on%20Website",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/grzegorz-gomza/Portfolio_Projects/tree/main/Cutomer%20Behaviour%20on%20Website/fork",
+                url: "https://github.com/grzegorz-gomza/Portfolio_Projects/tree/main/Customer%20Behaviour%20on%20Website/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/grzegorz-gomza/Portfolio_Projects/tree/main/Cutomer%20Behaviour%20on%20Website/subscription",
+                url: "https://github.com/grzegorz-gomza/Portfolio_Projects/tree/main/Customer%20Behaviour%20on%20Website/subscription",
                 icon: <AiFillEye/>
             }
         ],
