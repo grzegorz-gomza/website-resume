@@ -1,14 +1,15 @@
 import React from 'react'
 
-import cert1 from "../images/cert1.png"
-import cert2 from "../images/cert2.png"
-import cert3 from "../images/cert3.png"
-import cert4 from "../images/cert4.png"
-import cert5 from "../images/cert5.png"
-import cert6 from "../images/cert6.png"
-import cert7 from "../images/cert7.png"
-import cert8 from "../images/cert8.png"
-import dipl from "../images/dipl.png"
+import cert1 from "../images/cert1.png";
+import cert2 from "../images/cert2.png";
+import cert3 from "../images/cert3.png";
+import cert4 from "../images/cert4.png";
+import cert5 from "../images/cert5.png";
+import cert6 from "../images/cert6.png";
+import cert7 from "../images/cert7.png";
+import cert8 from "../images/cert8.png";
+import cert9 from "../images/cert9.png";
+import dipl from "../images/dipl.png";
 
 const certConfig = [
     {
@@ -52,6 +53,13 @@ const certConfig = [
         description: "",
         target: "_blank",
         tags: ["Cloud Computing", "Computer Science" ],
+    },
+    {
+        title: "Introduction to Big Data with PySpark",
+        image: cert9,
+        description: "",
+        target: "_blank",
+        tags: ["PySpark", "Big Data", "Cloud Computing", "Computer Science" ],
     },
     {
         title: "Learn C++",

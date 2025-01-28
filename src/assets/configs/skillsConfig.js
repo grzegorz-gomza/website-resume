@@ -21,6 +21,7 @@ import {
     SiCplusplus,
     SiMongodb,
     SiJupyter,
+    SiApachespark
 } from "react-icons/si";
 import { BiNetworkChart } from "react-icons/bi";
 import { GiRapidshareArrow } from "react-icons/gi";
@@ -194,6 +195,16 @@ const skillsConfig = {
         },
         {
             className: "skill-icon",
+            icon: <SiApachespark size={50} />,
+            text: "PySpark"
+        },
+        {
+            className: "skill-icon",
+            icon: <SiMongodb size={50} />,
+            text: "MongoDB"
+        },
+        {
+            className: "skill-icon",
             icon: <VscAzure size={50} />,
             text: "Azure AI"
         },
@@ -202,11 +213,7 @@ const skillsConfig = {
             icon: <SiCplusplus size={50} />,
             text: "C++"
         },
-        {
-            className: "skill-icon",
-            icon: <SiMongodb size={50} />,
-            text: "MongoDB"
-        }
+
         
         
     ],
