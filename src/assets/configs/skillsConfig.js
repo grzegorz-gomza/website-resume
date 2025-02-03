@@ -42,7 +42,7 @@ import { DiScrum, DiVisualstudio } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
 import { AiOutlineThunderbolt } from "react-icons/ai";
-
+import { SiNeo4J } from "react-icons/si";
 
 import React from "react";
 
@@ -89,6 +89,11 @@ const skillsConfig = {
             className: "skill-icon",
             icon: <SiNumpy size={50}/>,
             text: "Numpy"
+        },
+        {
+            className: "skill-icon",
+            icon: <SiNeo4J size={50}/>,
+            text: "Neo4J"
         },
         {
             className: "skill-icon",
