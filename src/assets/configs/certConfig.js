@@ -10,6 +10,18 @@ import cert7 from "../images/cert7.png";
 import cert8 from "../images/cert8.png";
 import cert9 from "../images/cert9.png";
 import dipl from "../images/dipl.png";
+import neo4j_1 from "../images/cert_neo4j/Neo4j_cert_1.png";
+import neo4j_2 from "../images/cert_neo4j/Neo4j_cert_2.png";
+import neo4j_3 from "../images/cert_neo4j/Neo4j_cert_3.png";
+import neo4j_4 from "../images/cert_neo4j/Neo4j_cert_4.png";
+import neo4j_5 from "../images/cert_neo4j/Neo4j_cert_5.png";
+import neo4j_6 from "../images/cert_neo4j/Neo4j_cert_6.png";
+import neo4j_7 from "../images/cert_neo4j/Neo4j_cert_7.png";
+import neo4j_8 from "../images/cert_neo4j/Neo4j_cert_8.png";
+import neo4j_9 from "../images/cert_neo4j/Neo4j_cert_9.png";
+import neo4j_10 from "../images/cert_neo4j/Neo4j_cert_10.png";
+
+
 
 const certConfig = [
     {
@@ -61,6 +73,79 @@ const certConfig = [
         target: "_blank",
         tags: ["PySpark", "Big Data", "Cloud Computing", "Computer Science" ],
     },
+    // Neo4j
+    {
+        title: "Build a Neo4j-backed Chatbot using Python",
+        image: neo4j_10,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language", "Langchain", "OpenAI API" ],
+    },
+    {
+        title: "Neo4j & LLM Fundamentals",
+        image: neo4j_7,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language", "Langchain", "OpenAI API" ],
+    },
+    {
+        title: "Building Knowledge Graphs with LLMs",
+        image: neo4j_1,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language", "Langchain", "OpenAI API" ],
+    },
+    {
+        title: "Introduction to Vector Indexes and Unstructured Data",
+        image: neo4j_6,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language", "Langchain", "OpenAI API" ],
+    },
+    {
+        title: "Graph Data Modeling Fundamentals",
+        image: neo4j_2,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language"],
+    },
+    {
+        title: "Intermediate Cypher Queries",
+        image: neo4j_5,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language"],
+    },
+    {
+        title: "Cypher Fundamentals",
+        image: neo4j_8,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language"],
+    },
+    {
+        title: "Importing CSV data into Neo4j",
+        image: neo4j_3,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language"],
+    },
+    {
+        title: "Importing Data Fundamentals",
+        image: neo4j_4,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language",],
+    },
+    {
+        title: "Neo4j Fundamentals",
+        image: neo4j_9,
+        description: "",
+        target: "_blank",
+        tags: ["Neo4j", "Cypher Query Language", "Langchain", "OpenAI API" ],
+    },
+    // Neo4j END
+
     {
         title: "Learn C++",
         image: cert7,
