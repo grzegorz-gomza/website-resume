@@ -20,7 +20,7 @@ const projectConfig = [
         links: [
             {
                 name: "streamlit-app",
-                url: "https://medium.com/rocket-science-team/training-a-cnn-for-lego-bricks-recognition-f285ffab3327",  
+                url: "https://gg-langgraphagent.streamlit.app/",  
                 icon: <SiStreamlit size={35} />
             },
             {
