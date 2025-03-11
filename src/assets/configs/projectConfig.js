@@ -4,7 +4,10 @@ import { BiGitRepoForked } from "react-icons/bi";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
 import { FaMedium } from "react-icons/fa"
 import { SiStreamlit } from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
 
+import CNN_MLOps from "../images/CNN_MLOps.png";
+import netflix from "../images/netflix.png";
 import langgraph from "../images/langgraph.png";
 import lego from "../images/lego.png";
 import punching from "../images/punching.jpeg";
@@ -14,9 +17,66 @@ import buyml from "../images/buyml.png";
 
 
 
+
 const projectConfig = [
     {
-        title: "LangGraph AI Agent",
+        title: "Chest cancer detection assistant",
+        links: [
+            {
+                name: "streamlit-app",
+                url: "",  
+                icon: <CgWebsite size={35} />
+            },
+            {
+                name: "repo",
+                url: "https://github.com/grzegorz-gomza/Chest_Cancer_Classification_MLOps",
+                icon: <AiFillGithub/>
+            },
+            {
+                name: "fork",
+                url: "https://github.com/grzegorz-gomza/Chest_Cancer_Classification_MLOps/fork",
+                icon: <BiGitRepoForked/>
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/grzegorz-gomza/Chest_Cancer_Classification_MLOps/subscription",
+                icon: <AiFillEye/>
+            }
+        ],
+        image: CNN_MLOps,
+        description: "The Chest Cancer Recognition Assistant is a sophisticated medical diagnostic tool leveraging artificial intelligence to detect and classify chest cancer from medical imaging. Using advanced deep learning techniques, the system analyzes chest scans to identify three primary types of lung cancer. Project was made with MLOps, CNNs and Fine Tuning a pretrained Model",
+        target: "_blank"
+    },
+    {
+        title: "Netlix Recommendation Chatbot",
+        links: [
+            {
+                name: "streamlit-app",
+                url: "https://gg-netflix-recommender.streamlit.app/",  
+                icon: <SiStreamlit size={35} />
+            },
+            {
+                name: "repo",
+                url: "https://github.com/grzegorz-gomza/Recommender_System_with_Neo4j",
+                icon: <AiFillGithub/>
+            },
+            {
+                name: "fork",
+                url: "https://github.com/grzegorz-gomza/Recommender_System_with_Neo4j/fork",
+                icon: <BiGitRepoForked/>
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/grzegorz-gomza/Recommender_System_with_Neo4j/subscription",
+                icon: <AiFillEye/>
+            }
+        ],
+        image: netflix,
+        description: "This project provides an interactive movie recommendation experience powered by a conversational AI agent. It leverages the capabilities of Neo4j (a graph database), Langchain (a framework for building LLM applications), and Streamlit (for creating the user interface).",
+        target: "_blank"
+    },
+    {
+        title: "RAG Chatbot with PDF & Websearch",
         links: [
             {
                 name: "streamlit-app",
