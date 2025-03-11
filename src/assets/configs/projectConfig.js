@@ -20,7 +20,7 @@ import buyml from "../images/buyml.png";
 
 const projectConfig = [
     {
-        title: "Chest cancer detection assistant",
+        title: "Chest Cancer Detection Assistant",
         links: [
             {
                 name: "streamlit-app",
