@@ -1,5 +1,3 @@
-import React from 'react'
-
 import cert1 from "../images/cert1.png";
 import cert2 from "../images/cert2.png";
 import cert3 from "../images/cert3.png";

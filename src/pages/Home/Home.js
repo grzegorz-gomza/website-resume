@@ -31,10 +31,11 @@ const Home = () => {
 
             <section id="skills">
                 {[
-                    { title: 'Main Skills & Tools', skills: skillsConfig.mainSkills },
-                    { title: 'Complementary Skills & Tools', skills: skillsConfig.complementarySkills },
-                    { title: 'Basic knowledge', skills: skillsConfig.basicSkills },
-                    { title: 'Soft skills and transferable skills', skills: skillsConfig.softSkills },
+                    { title: 'Developement Skills', skills: skillsConfig.developmentSkills },
+                    { title: 'Database & Data Processing Skills', skills: skillsConfig.dataSkills },
+                    { title: 'Machine Learning & Data Science Skills', skills: skillsConfig.machineLearningSKills },
+                    { title: 'Deep Learning & AI Skills', skills: skillsConfig.aiSkills },
+                    { title: 'Professional & Soft Skills', skills: skillsConfig.professionalSkills },
                 ].map((section, index) => (
                     <Box
                         key={index}

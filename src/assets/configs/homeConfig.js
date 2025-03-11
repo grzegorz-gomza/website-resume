@@ -21,16 +21,16 @@ const homeConfig = {
         "Fast learner",
     ],
     about: {
-        start: "Data Scientist with a background in Civil Engineering, applying advanced analytical and problem-solving skills to extract impactful insights from extensive datasets and drive strategic, data-informed decisions. My expertise in structural analysis and design has cultivated a strong grasp of complex systems, enabling me to identify patterns and trends with precision and clarity.",
-        exit: "I'm fluent at Python, SQL databases, Scikit-learn, and more, " +
-            "with a deep interest in deep learning."
+        start: "Machine Learning Engineer with a background in Civil Engineering, applying advanced analytical and problem-solving skills to extract impactful insights from extensive datasets and drive strategic, data-informed decisions. My expertise in structural analysis and design has cultivated a strong grasp of complex systems, enabling me to adress the buissness problems and needs with new data and AI driven technologies.",
+        exit: "Fluent at Python, SQL databases, Scikit-learn and highly skilled in Deep Learning and AI solutions. " +
+            "Constantly developing skills to be always up to date. "
     },
     workTimeline: [
         {
             title: "Self-Study",
             company: "Self-Learning Platforms",
             description:
-            "Studied LLMs, OpenAI-API, RAG, Langchain, Langgraph, PyTorch, Git, and more through YouTube and Udemy (>400 hrs).",
+            "Studied LLMs, OpenAI-API, RAG, Langchain, Langgraph, PyTorch, MongoDB, Neo4J, Azure, AWS, Git, and more through YouTube, CodeCademy, Udemy (>800 hrs and still counts).",
             date: "Ongoing",
             icon: <DiCodeigniter />,
             tags: ["openai", "llm", "rag", "langchain"],
