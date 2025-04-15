@@ -1,10 +1,11 @@
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography, Box } from '@mui/material';
 import CardIcons from './CardIcons';
+import Tags from '../Tags/Tags';
 
 const CardItem = (props) => {
     return (
-        <Card sx={{ width: 380, height: 550, m: 2, backgroundColor: '#F6F6F6', boxShadow: 3, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+        <Card sx={{ width: 400, max_height: 1000, m: 2, backgroundColor: '#F6F6F6', boxShadow: 3, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <CardMedia
                 component="div"
                 sx={{
@@ -24,6 +25,7 @@ const CardItem = (props) => {
                         {props.item.description}
                     </Typography>
                 </Box>
+                <Tags tags={props.item.tags} />
                 <Box sx={{ borderTop: 1, borderColor: 'divider', my: 1 }} />
                 <CardIcons item={props.item} sx={{ py: 0.3 }} />
             </CardContent>
