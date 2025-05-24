@@ -14,11 +14,9 @@ const homeConfig = {
             Hi! I'm <strong className="main-name"> Grzegorz Gomza</strong>
         </h1>,
     titles: [
-        "A Data Scientist",
+        "An AI Engineer",
         "A Machine Learning Specialist",
         "A Civil Engineer",
-        "Master of Science",
-        "Fast learner",
     ],
     about: {
         start: "Machine Learning Engineer with a background in Civil Engineering, applying advanced analytical and problem-solving skills to extract impactful insights from extensive datasets and drive strategic, data-informed decisions. My expertise in structural analysis and design has cultivated a strong grasp of complex systems, enabling me to adress the buissness problems and needs with new data and AI driven technologies.",
@@ -27,13 +25,13 @@ const homeConfig = {
     },
     workTimeline: [
         {
-            title: "Self-Study",
-            company: "Self-Learning Platforms",
+            title: "Freelancer",
+            company: "",
             description:
-            "Studied LLMs, OpenAI-API, RAG, Langchain, Langgraph, PyTorch, MongoDB, Neo4J, Azure, AWS, Git, and more through YouTube, CodeCademy, Udemy (>800 hrs and still counts).",
+            "I developed AI applications, including chatbots and AI agents, for various companies in the e-commerce sector. I completed numerous machine learning projects for a range of clients, such as e-commerce businesses and startups. My responsibilities included designing and implementing machine learning models to enhance product recommendation accuracy and improve customer segmentation. Additionally, I created predictive analytics tools to forecast sales trends and optimize inventory management. Overall, I applied my skills in machine learning and data analysis to support business growth and boost customer satisfaction.",
             date: "Ongoing",
             icon: <DiCodeigniter />,
-            tags: ["openai", "llm", "rag", "langchain"],
+            tags: ["OpenAI", "LLMs", "RAGs", "LangChain", "LangGraph", "Neo4j", "MongoDB", "MLFlow", "PyTorch", "Huggingface", "BERT"],
         },
         {
             title: "Data Scientist: Machine Learning",

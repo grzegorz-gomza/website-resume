@@ -13,6 +13,7 @@ import punching from "../images/punching.jpeg";
 import tictactoe from "../images/tictactoe.png";
 import chatpdf from "../images/chatpdf.png";
 import buyml from "../images/buyml.png";
+import email from "../images/e-mail_classifier.png"
 
 
 
@@ -104,6 +105,30 @@ const projectConfig = [
         description: "The main goal of the project was to combine two concepts: a LangGraph Agent with access to the web and a Multimodal RAG Agent capable of reading PDF files, including graphics and tables. The entire project was wrapped in a frontend using Streamlit and deployed. The Agent can provide answers to given questions using the LLM itself, internet research, and a deep understanding of the provided PDF file. ",
         target: "_blank",
         tags: ["Langgraph", "Streamlit", "OpenAI API", "Agentic Chatbot", "Websearch", "RAG"]
+    },
+    {
+        title: "E-mail_Spam_Detection",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/grzegorz-gomza/E-mail_Spam_Detection",
+                icon: <AiFillGithub/>
+            },
+            {
+                name: "fork",
+                url: "https://github.com/grzegorz-gomza/E-mail_Spam_Detection/fork",
+                icon: <BiGitRepoForked/>
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/grzegorz-gomza/E-mail_Spam_Detection/subscription",
+                icon: <AiFillEye/>
+            }
+        ],
+        image: email,
+        description: "Goal of this project is to build a machine learning model that can accurately classify emails as spam or not spam. This project will use various NLP techniques and machine learning algorithms to achieve this goal.",
+        target: "_blank",
+        tags: ["FastAPI", "Scikit-learn", "Streamlit", "Docker", "Airflow & DAG", "NLTK", "Evidently AI", "MLFlow"]
     },
     {
         title: "Lego Brick Classification Project",

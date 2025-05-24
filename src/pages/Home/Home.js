@@ -31,11 +31,16 @@ const Home = () => {
 
             <section id="skills">
                 {[
-                    { title: 'Developement Skills', skills: skillsConfig.developmentSkills },
-                    { title: 'Database & Data Processing Skills', skills: skillsConfig.dataSkills },
-                    { title: 'Machine Learning & Data Science Skills', skills: skillsConfig.machineLearningSKills },
-                    { title: 'Deep Learning & AI Skills', skills: skillsConfig.aiSkills },
-                    { title: 'Professional & Soft Skills', skills: skillsConfig.professionalSkills },
+                    { title: 'Programming Languages & Core Tools', skills: skillsConfig.programmingLanguages },
+                    { title: 'AI, Machine Learning & Deep Learning', skills: skillsConfig.aiMLDL },
+                    { title: 'Data Engineering & Analytics', skills: skillsConfig.dataEngineering },
+                    { title: 'Data Visualization & Reporting', skills: skillsConfig.dataVisualisation },
+                    { title: 'Full-Stack (Web & API Development)', skills: skillsConfig.fullStack },
+                    { title: 'Cloud, & MLOps', skills: skillsConfig.devOps },
+                    { title: 'Development Environments & Utilities', skills: skillsConfig.tools },
+                    { title: 'Collaboration & Project Management', skills: skillsConfig.collaboration },
+                    { title: 'Professional & Analytical Skills', skills: skillsConfig.proffesionalSkills }
+                    
                 ].map((section, index) => (
                     <Box
                         key={index}
